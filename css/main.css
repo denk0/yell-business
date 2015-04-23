@@ -1,0 +1,324 @@
+body{
+	font-family: 'GothamProLight', sans-serif;
+	line-height: 1.1;
+}
+
+a, button, .button{
+	-webkit-transition: all .2s ease-in;
+	   -moz-transition: all .2s ease-in;
+	    -ms-transition: all .2s ease-in;
+	     -o-transition: all .2s ease-in;
+	        transition: all .2s ease-in;
+}
+
+
+.fullpage{
+	max-width: 75%;
+}
+.copyright{
+	position: fixed;
+	font-size: 0.8vw;
+	right: 3vw;
+	bottom: 45px;
+	z-index: 1000;
+}
+.go-next{
+	cursor: pointer;
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	position: fixed;
+	background-color: #FFF;
+	border-radius: 50%;
+	bottom: 45px;
+	left: 35%;
+	z-index: 1000;
+	-webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+	-webkit-transition: all .2s ease-in;
+	   -moz-transition: all .2s ease-in;
+	    -ms-transition: all .2s ease-in;
+	     -o-transition: all .2s ease-in;
+	        transition: all .2s ease-in;
+}
+.go-next:hover{
+	background-color: #E3E3E3;
+	box-shadow: none;
+}
+.go-next img{
+	position: absolute;
+	top: 45%;
+	left: 36%;
+}
+.section-same{
+	text-align: center;
+}
+
+/*about styles*/
+.about{
+	background-color: #F04C49;
+	text-align: center;
+}
+.logo{
+	display: block;
+	color: #fff;
+	font-size: 1.8vw;
+	font-family: 'GothamProBlack';
+	position: relative;
+}
+.logo__image{
+	position: absolute;
+	left: 25px;
+	top: 20px;
+}
+.logo .logo__text{
+	position: absolute;
+	display: inline-block;
+	top: 30px;
+	left: 90px;
+}
+.logo .logo__text sup{
+	position: absolute;
+	top: 5px;
+	left: 105%;
+	font-size: 0.8vw;
+	letter-spacing: 1px;
+}
+.site-tittle{
+	text-align: center;
+	color: #FFF;
+	font-size: 9vw;
+	font-family: 'GothamProBlack';
+	height: 50vh;
+	padding: 15vh 0;
+}
+.top-column{
+	text-align: center;
+	color: #FED152;
+}
+.top-column__header{
+	font-size: 3.4vw;
+	font-family: 'GothamProBlack';
+	margin-bottom: 3%;
+}
+.top-column__text{
+	font-size: 1.2vw;
+	font-family: 'GothamProLight', sans-serif;
+}
+.proposal-premium{
+	display: inline-block;
+	padding: 20px 60px;
+	margin-top: 5%;
+	color: #fff;
+	font-size: 2.3vw;
+	font-family: 'GothamProLight', sans-serif;
+	border: 10px solid #fff;
+}
+.button--premium:hover{
+	background-color: #FFF;
+	color: #F04C49;
+}
+/*yell-advertising styles*/
+.yell-advertising{
+	background-color: #fff;
+}
+.section-header{
+	font-size: 2.5vw;
+	line-height: 1.5;
+	text-align: center;
+	height: 50vh;
+	padding: 15vh 0;
+}
+.proposal-tittle{
+	text-align: left;
+	font-size: 2.3vw;
+	font-family: 'GothamProMedium', sans-serif;
+	margin-left: 5vw;
+	margin-bottom: 30px;
+}
+.proposal{
+	text-align: left;
+	margin-left: 5vw;
+}
+.proposal li{
+	position: relative;
+	padding-left: 5px;
+	font-size: 1.2vw;
+	margin-bottom: 10px;
+	line-height: 1.6;
+}
+.proposal li:before{
+	content: '-';
+	position: absolute;
+	right: 100%;
+	top: 0;
+}
+.big-image{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 45%;
+	height: 50%;
+}
+.yell-advertising .big-image{
+	background: url(https://img-fotki.yandex.ru/get/6742/311645665.0/0_11d191_effe0ec5_orig.png) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+
+/*site-production styles*/
+.site-production{
+	background-color: #F2F2F2;
+}
+.auto-images{
+	position: absolute;
+	width: 80%;
+	height: 50%;
+	bottom: 0;
+	left: 10%;
+}
+.auto-box{
+	background-color: #FFF;
+	padding: 10px;
+	position: absolute;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	bottom: 0;
+	width: 50%;
+	height: 90%;
+	cursor: pointer;
+	z-index: 0;
+}
+.index-more{
+	z-index: 1;
+}
+.auto-box.box-1{
+	left: 0;
+	background: url(../images/auto1.png) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.auto-box.box-2{
+	left: 25%;
+	background: url(../images/auto2.png) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100%;
+}
+.auto-box.box-3{
+	left: 50%;
+	background: url(../images/auto3.png) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+/*delete-competitors styles*/
+.delete-competitors{
+	background-color: #FFF;
+}
+.image-down{
+	width: 60%;
+	height: 50%;
+	position: absolute;
+	bottom: 0;
+	left: 20%;
+	border-radius: 5px;
+}
+.delete-competitors .image-down{
+	background: url(../images/crossed-image.png) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+.cross{
+	display: inline-block;
+	position: absolute;
+	bottom: 12%;
+	left: 38%;
+}
+
+/*publish-advertisements*/
+.publish-advertisements{
+	background-color: #F2F2F2;
+}
+.publish-advertisements .image-down{
+	background: url(../images/some.png) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+/*slideshow*/
+.slideshow{
+	background-color: #FFF;
+}
+.slideshow__list{
+	text-align: left;
+	margin-left: 5vw;
+}
+.slideshow__list h3{
+	font-size: 2.3vw;
+	font-family: 'GothamProMedium', sans-serif;
+	margin-bottom: 10px;
+}
+.slideshow__list p{
+	font-size: 1.2vw;
+	line-height: 1.6;
+}
+.slideshow__list li{
+	margin-bottom: 30px;
+}
+.slideshow .big-image{
+	background: url(../images/cheburechnaya.png) 0 0 no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+/*geotagging styles*/
+.geotagging{
+	background-color: #F2F2F2;
+}
+.geotagging .section-header{
+	margin-bottom: 85px;
+}
+.map{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+/*cost styles*/
+.cost{
+	background-color: #F04C49;
+}
+.cost__header{
+	color: #fff;
+	text-align: center;
+	font-size: 4vw;
+	font-family: 'GothamProBlack', sans-serif;
+	height: 100%;
+	padding-top: 35vh;
+}
+
+/*why-yell styles*/
+.why-yell{
+	background-color: #FFF;
+}
+
+/*MEDIA QUERIES*/
+
+
+@media (max-width: 768px){
+	.fullpage{
+		max-width: 100%;
+	}
+	.go-next{
+		left: 45%;
+	}
+}
